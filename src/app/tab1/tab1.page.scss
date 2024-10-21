@@ -1,0 +1,48 @@
+.calculator-background {
+    background-color: #328ecc;
+  }
+  
+  .calculator-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d4cfe9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .boton {
+    border: 2px solid black !important; /* Borde negro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: white !important; /* Botones blancos */
+    color: black !important; /* Números en negro */
+    box-shadow: none !important; /* Sin sombra */
+  }
+  
+  .boton.fondo.amarillo {
+    background-color: yellow !important; /* Operaciones en amarillo */
+    color: black !important; /* Números en negro */
+  }
+  
+  /* Eliminar el estilo de Ionic predeterminado */
+  ion-button {
+    --background: transparent !important; /* Elimina el fondo azul */
+    --color: black !important; /* Color de texto negro */
+    --border-radius: 5px; /* Bordes redondeados */
+  }
+  
